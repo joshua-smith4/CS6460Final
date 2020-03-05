@@ -1,0 +1,30 @@
+.floating {
+    position: absolute;
+}
+
+#warn1_img {
+}
+
+.overlaid_button {
+    width: 44%;
+    top: 85.5%;
+    height: 8%;
+    opacity: 0.2;
+}
+
+#advanced_button {
+    left: 5.5%;
+}
+
+#advanced_button:hover {
+    background-color: yellow;
+}
+
+#no_button {
+    left: 50.5%;
+}
+
+#no_button:hover {
+    background-color: green;
+}
+
