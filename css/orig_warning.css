@@ -2,13 +2,10 @@
     position: absolute;
 }
 
-#warn1_img {
-}
-
 .overlaid_button {
-    width: 44%;
     top: 85.5%;
     height: 8%;
+    width: 44%;
     opacity: 0.2;
 }
 

@@ -5,16 +5,28 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/warn1.css">
+        <link rel="stylesheet" href="css/orig_warning.css">
+        <link rel="stylesheet" href="css/advanced_screen.css">
     </head>
 
     <body>
         <div id="outer_container">
             <div id="notifier_holder">
-                <div class="notifier_screen" id="warn1">
+                <div class="notifier_screen" id="orig_warning">
                     <img class='floating' src="img/warning_edited.png" width="100%" id="warn1_img"/>
                     <button class='floating overlaid_button' type="button" id="advanced_button"></button>
                     <button class='floating overlaid_button' type="button" id="no_button"></button>
+                </div>
+                <div class="notifier_screen" id="advanced_screen" style="display: none;">
+                    <div class="notifier_header">
+                        <p class="header_title">User Account Control</p>
+                        <h1 class="header_text">Temporary header text</h1>
+                    </div>
+                    <div class="notifier_body">
+                        <button class="main_button"></button>
+                        <button class="main_button"></button>
+                        <button class="main_button"></button>
+                    </div>
                 </div>
             </div>
         </div>
