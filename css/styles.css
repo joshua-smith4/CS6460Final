@@ -49,7 +49,7 @@ body {
 .notifier_body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: space-around;
     height: 327px;
     background-color: #e7e6e8;
@@ -59,7 +59,7 @@ body {
     margin-top: 12px;
 }
 
-.notifier_header p, .header_text {
+.notifier_header p, .header_text, .main_button {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -69,6 +69,14 @@ body {
 }
 
 .main_button {
-    height: 8%;
-    width: 80%;
+    height: auto;
+    width: 95%;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: left;
 }
+
+.main_button:hover {
+    background-color: #e7e6e8;
+}
+
