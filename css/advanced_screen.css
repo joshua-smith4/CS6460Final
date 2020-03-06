@@ -1,0 +1,23 @@
+.green_back {
+    background-color: #85e085;
+}
+
+.green_back:hover {
+    background-color: #2eb82e;
+}
+
+.yellow_back {
+    background-color: #ffd451;
+}
+
+.yellow_back:hover {
+    background-color: #f0d050;
+}
+
+.red_back {
+    background-color: #fd4526;
+}
+    
+.red_back:hover {
+    background-color: red;
+}
