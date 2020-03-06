@@ -17,15 +17,46 @@
                     <button class='floating overlaid_button' type="button" id="advanced_button"></button>
                     <button class='floating overlaid_button' type="button" id="no_button"></button>
                 </div>
-                <div class="notifier_screen" id="advanced_screen" style="display: none;">
+                <div class="notifier_screen" id="advanced_screen">
                     <div class="notifier_header">
                         <p class="header_title">User Account Control</p>
-                        <h1 class="header_text"></h1>
+                        <h1 class="header_text">Please select the option that best describes your understanding of this security notifier.</h1>
                     </div>
-                    <div class="notifier_body">
-                        <button class="main_button"></button>
-                        <button class="main_button"></button>
-                        <button class="main_button"></button>
+                    <div class="notifier_body flex_container flex_dir_column flex_align_center">
+                        <button class="green_back main_button full_width text_left_align" id="op1_button">I do not understand this warning.</button>
+                        <button class="green_back main_button full_width text_left_align" id="op2_button">I have used this type of app before without any problems. What could go wrong?</button>
+                        <button class="yellow_back main_button full_width text_left_align" id="op3_button">I do not think this app will do any harm to my computer.</button>
+                        <button class="red_back main_button full_width text_left_align" id="bypass_button" onclick="end()">I fully understand the risks. Run the program.</button>
+                    </div>
+                </div>
+                <div class="notifier_screen" id="option1">
+                    <div class="notifier_header">
+                        <p class="header_title">User Account Control</p>
+                        <h1 class="header_text">Option 1</h1>
+                    </div>
+                    <div class="notifier_body flex_container flex_align_end">
+                        <button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
+                        <button class="green_back main_button half_width" onclick="end()">Back to Safety</button>
+                    </div>
+                </div>
+                <div class="notifier_screen" id="option2">
+                    <div class="notifier_header">
+                        <p class="header_title">User Account Control</p>
+                        <h1 class="header_text">Option 2</h1>
+                    </div>
+                    <div class="notifier_body flex_container flex_align_end">
+                        <button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
+                        <button class="green_back main_button half_width" onclick="end()">Back to Safety</button>
+                    </div>
+                </div>
+                <div class="notifier_screen" id="option3">
+                    <div class="notifier_header">
+                        <p class="header_title">User Account Control</p>
+                        <h1 class="header_text">Option 3</h1>
+                    </div>
+                    <div class="notifier_body flex_container flex_align_end">
+                        <button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
+                        <button class="green_back main_button half_width" onclick="end()">Back to Safety</button>
                     </div>
                 </div>
             </div>
