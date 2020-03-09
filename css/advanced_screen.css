@@ -21,3 +21,7 @@
 .red_back:hover {
     background-color: #fd4526;
 }
+
+.bad_idea {
+    color: #fd4526;
+}

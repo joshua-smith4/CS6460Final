@@ -121,5 +121,12 @@ body {
 }
 
 p {
+	font-size: 1.2em;
 	margin: 0;
+	padding-left: 10px;
+}
+
+ul {
+	font-size: 1.2em;
+	margin: 10px;
 }

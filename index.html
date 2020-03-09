@@ -20,13 +20,14 @@
                 <div class="notifier_screen" id="advanced_screen">
                     <div class="notifier_header">
                         <p class="header_title">User Account Control</p>
-                        <h1 class="header_text">Please select the option that best describes your understanding of this security notifier.</h1>
+                        <h1 class="header_text">Windows was unable to identify the publisher of this software.</h1>
                     </div>
                     <div class="notifier_body flex_container flex_dir_column flex_align_center">
-                        <a class="main_option full_width text_left_align" id="op1_button">I do not understand this warning.</a>
+						<p>Installing software from unknown publishers can be dangerous for your computer. Why do you trust this software?</p>
+                        <a class="main_option full_width text_left_align" id="op1_button">I do not understand the risks involved.</a>
 						<a class="main_option full_width text_left_align" id="op2_button">I have used this type of app before without any problems. <!--What could go wrong?--></a>
                         <a class="main_option full_width text_left_align" id="op3_button">I do not think this app will do any harm to my computer.</a>
-                        <a class="main_option full_width text_left_align" id="bypass_button" onclick="end()">I fully understand the risks. Run the program.</a>
+                        <a class="bad_idea main_option full_width text_left_align" id="bypass_button" onclick="end()">I fully understand the risks. Allow the program to make changes.</a>
                     </div>
                 </div>
                 <div class="notifier_screen" id="option1">
@@ -38,9 +39,9 @@
 						<div>
 							<p>Installing software from unverified sources can have severe impacts on your computer's security. Risks associated with installing software from unverified publishers include:</p>
 							<ul>
-								<li>Allowing access to private or sensitive documents</li>
+								<li>Allowing access to private and sensitive information</li>
 								<li>Increasing vulnerability to computer viruses and malware</li>
-								<li></li>
+								<li>Modifying files and settings on your computer</li>
 							</ul>
 							<div class="flex_dir_row flex_space_between flex_align_self_end">
                 	        	<button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
