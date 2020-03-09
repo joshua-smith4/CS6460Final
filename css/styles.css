@@ -4,7 +4,7 @@ body {
     margin: 0;
     border: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Segoe UI, Arial, Helvetica, sans-serif;
 }
 
 #outer_container {
@@ -73,11 +73,12 @@ body {
 }
 
 .header_title {
+	font-size: 1em;
     margin-top: 12px;
 }
 
 .notifier_header p, .header_text, .main_button {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Segoe UI, Arial, Helvetica, sans-serif;
 }
 
 .header_text {
@@ -123,6 +124,7 @@ body {
 p {
 	font-size: 1.2em;
 	margin: 0;
+	margin-bottom: 10px;
 	padding-left: 10px;
 }
 

@@ -25,8 +25,8 @@
                     <div class="notifier_body flex_container flex_dir_column flex_align_center">
 						<p>Installing software from unknown publishers can be dangerous for your computer. Why do you trust this software?</p>
                         <a class="main_option full_width text_left_align" id="op1_button">I do not understand the risks involved.</a>
-						<a class="main_option full_width text_left_align" id="op2_button">I have used this type of app before without any problems. <!--What could go wrong?--></a>
-                        <a class="main_option full_width text_left_align" id="op3_button">I do not think this app will do any harm to my computer.</a>
+						<a class="main_option full_width text_left_align" id="op2_button">I have used this type of application before without any problems. <!--What could go wrong?--></a>
+                        <a class="main_option full_width text_left_align" id="op3_button">I do not think this application will do any harm to my computer.</a>
                         <a class="bad_idea main_option full_width text_left_align" id="bypass_button" onclick="end()">I fully understand the risks. Allow the program to make changes.</a>
                     </div>
                 </div>
@@ -43,21 +43,26 @@
 								<li>Increasing vulnerability to computer viruses and malware</li>
 								<li>Modifying files and settings on your computer</li>
 							</ul>
+						</div>
 							<div class="flex_dir_row flex_space_between flex_align_self_end">
                 	        	<button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
                 	        	<button class="green_back main_button half_width" onclick="end()">Back to Safety</button>
-							</div>
 							</div>
                     </div>
                 </div>
                 <div class="notifier_screen" id="option2">
                     <div class="notifier_header">
                         <p class="header_title">User Account Control</p>
-                        <h1 class="header_text">Option 2</h1>
-                    </div>
-                    <div class="notifier_body flex_container flex_align_end">
-                        <button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
-                        <button class="green_back main_button half_width" onclick="end()">Back to Safety</button>
+						<h1 class="header_text">Malicious software can imitate real software.</h1>
+                    </div>	
+                    <div class="notifier_body flex_container flex_dir_column">
+						<div>
+							<p>Malicious software often disguises itself as popular or common software such as image editors or antivirus tools. Installing this software might allow it to collect information from you computer. This information could include your files, what applications you use, and when you use your computer.</p>
+						</div>
+						<div>
+            	            <button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
+            	            <button class="green_back main_button half_width" onclick="end()">Back to Safety</button>
+						</div>
                     </div>
                 </div>
                 <div class="notifier_screen" id="option3">
