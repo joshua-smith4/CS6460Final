@@ -23,20 +23,30 @@
                         <h1 class="header_text">Please select the option that best describes your understanding of this security notifier.</h1>
                     </div>
                     <div class="notifier_body flex_container flex_dir_column flex_align_center">
-                        <button class="green_back main_button full_width text_left_align" id="op1_button">I do not understand this warning.</button>
-                        <button class="green_back main_button full_width text_left_align" id="op2_button">I have used this type of app before without any problems. What could go wrong?</button>
-                        <button class="yellow_back main_button full_width text_left_align" id="op3_button">I do not think this app will do any harm to my computer.</button>
-                        <button class="red_back main_button full_width text_left_align" id="bypass_button" onclick="end()">I fully understand the risks. Run the program.</button>
+                        <a class="main_option full_width text_left_align" id="op1_button">I do not understand this warning.</a>
+						<a class="main_option full_width text_left_align" id="op2_button">I have used this type of app before without any problems. <!--What could go wrong?--></a>
+                        <a class="main_option full_width text_left_align" id="op3_button">I do not think this app will do any harm to my computer.</a>
+                        <a class="main_option full_width text_left_align" id="bypass_button" onclick="end()">I fully understand the risks. Run the program.</a>
                     </div>
                 </div>
                 <div class="notifier_screen" id="option1">
                     <div class="notifier_header">
                         <p class="header_title">User Account Control</p>
-                        <h1 class="header_text">Option 1</h1>
+                        <h1 class="header_text">Installing Software Involves Risk</h1>
                     </div>
-                    <div class="notifier_body flex_container flex_align_end">
-                        <button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
-                        <button class="green_back main_button half_width" onclick="end()">Back to Safety</button>
+                    <div class="notifier_body flex_container flex_dir_column">
+						<div>
+							<p>Installing software from unverified sources can have severe impacts on your computer's security. Risks associated with installing software from unverified publishers include:</p>
+							<ul>
+								<li>Allowing access to private or sensitive documents</li>
+								<li>Increasing vulnerability to computer viruses and malware</li>
+								<li></li>
+							</ul>
+							<div class="flex_dir_row flex_space_between flex_align_self_end">
+                	        	<button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
+                	        	<button class="green_back main_button half_width" onclick="end()">Back to Safety</button>
+							</div>
+							</div>
                     </div>
                 </div>
                 <div class="notifier_screen" id="option2">
