@@ -1,1 +1,12 @@
+#button_div {
+    align-self: flex-end;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#malware_img {
+    width: 55%;
+    align-self: center;
+    justify-self: flex-begin;
+}
 

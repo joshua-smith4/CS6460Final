@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/orig_warning.css">
         <link rel="stylesheet" href="css/advanced_screen.css">
+        <link rel="stylesheet" href="css/option3.css">
     </head>
 
     <body>
@@ -54,9 +55,12 @@
                         <p class="header_title">User Account Control</p>
                         <h1 class="header_text">Option 3</h1>
                     </div>
-                    <div class="notifier_body flex_container flex_align_end">
-                        <button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
-                        <button class="green_back main_button half_width" onclick="end()">Back to Safety</button>
+                    <div class="notifier_body flex_container flex_dir_column">
+                        <img src="img/malware.jpg" id="malware_img" />
+                        <div class="flex_container flex_dir_row" id="button_div">
+                            <button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
+                            <button class="green_back main_button half_width" onclick="end()">Back to Safety</button>
+                        </div>
                     </div>
                 </div>
             </div>
