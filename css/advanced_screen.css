@@ -15,9 +15,13 @@
 }
 
 .red_back {
-    background-color: #fd4526;
+    background-color: #ff6961;
 }
     
 .red_back:hover {
-    background-color: red;
+    background-color: #fd4526;
+}
+
+.bad_idea {
+    color: #fd4526;
 }
