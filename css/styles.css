@@ -18,11 +18,11 @@ body {
 }
 
 #notifier_holder {
-    position: absolute;
-    left: 30%;
+    position: relative;
     top: 0;
     width: 550px;
     height: 100vh;
+	margin: auto;
 }
 
 .notifier_screen {
