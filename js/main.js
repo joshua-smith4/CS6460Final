@@ -23,8 +23,8 @@ function displayScreen(screen)
 
 function end()
 {
-    displayScreen("none");
-    alert('Thank you!');
+    displayScreen("orig_warning");
+    //alert('Thank you!');
 }
 
 $(() => { displayScreen(screens[0]); });
