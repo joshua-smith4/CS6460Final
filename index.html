@@ -14,21 +14,19 @@
         <div id="outer_container">
             <div id="notifier_holder">
                 <div class="notifier_screen" id="orig_warning">
-                    <img class='floating' src="img/warning_edited.png" width="100%" id="warn1_img"/>
+                    <img class='floating' src="img/warning_edited_2.png" width="100%" id="warn1_img"/>
                     <button class='floating overlaid_button' type="button" id="advanced_button"></button>
                     <button class='floating overlaid_button' type="button" id="no_button"></button>
                 </div>
                 <div class="notifier_screen" id="advanced_screen">
                     <div class="notifier_header">
                         <p class="header_title">User Account Control</p>
-                        <h1 class="header_text">Windows was unable to identify the publisher of this software.</h1>
+                        <h1 class="header_text">Select the option that best describes your understanding of the security risks</h1>
                     </div>
                     <div class="notifier_body flex_container flex_dir_column flex_align_center">
-						<p>Installing software from unknown publishers can be dangerous for your computer. Why do you trust this software?</p>
                         <a class="main_option full_width text_left_align" id="op1_button">I do not understand the risks involved.</a>
 						<a class="main_option full_width text_left_align" id="op2_button">I have used this type of application before without any problems. <!--What could go wrong?--></a>
                         <a class="main_option full_width text_left_align" id="op3_button">I do not think this application will do any harm to my computer.</a>
-                        <a class="bad_idea main_option full_width text_left_align" id="bypass_button" onclick="end()">I fully understand the risks. Allow the program to make changes.</a>
                     </div>
                 </div>
                 <div class="notifier_screen" id="option1">
@@ -69,20 +67,16 @@
                 <div class="notifier_screen" id="option3">
                     <div class="notifier_header">
                         <p class="header_title">User Account Control</p>
-                        <h1 class="header_text">Software with unidentified publishers/authors can be fraudulent and may result in serious consequences</h1>
+                        <h1 class="header_text">Software with unidentified authors is often dangerous.</h1>
                     </div>
                     <div class="notifier_body flex_container flex_dir_column">
                         <div class="flex_container flex_dir_row" style="justify-content:space-around;width:100%;">
                             <div style="margin-right:10px;">
-                                <ul>
-                                    <li>Identity theft</li>
-                                    <li>Data corruption and/or loss</li>
-                                    <li><a href="https://en.wikipedia.org/wiki/Ransomware">Ransomware</a></li>
-                                    <li><a href="https://en.wikipedia.org/wiki/Malware">Malware</a></li>
-                                </ul>
-                                <a href="https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-overview">Click here to learn more</a>
+                                <p>Hackers will often disguise <a href="https://en.wikipedia.org/wiki/Malware">malware</a>, malicious software made to steal information and/or money, as commonly used software applications.</p>
+                                <br \>
+                                <p>NortonLifeLock Inc., a leader in computer security, stated that, in 2017, hackers stole a reported $172 Billion from over 978 million overconfident consumers in 20 countries. Don't let complacency compromise your security.</p>
                             </div>
-                            <img src="img/malware.jpg" id="malware_img" />
+                            <img src="img/caution.png" id="malware_img" />
                         </div>
                         <div class="flex_container flex_dir_row" id="button_div">
                             <button class="red_back main_button half_width" onclick="end()">Proceed Anyway</button>
